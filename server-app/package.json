@@ -1,0 +1,15 @@
+{
+  "name": "server-chat-app",
+  "version": "1.0.0",
+  "description": "This is a server side application for chatting.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Shiv Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
