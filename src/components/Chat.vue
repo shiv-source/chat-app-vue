@@ -2,8 +2,8 @@
   <div class="container">
     <div class="card border-info" style="width: 28rem;min-height: 24rem; ">
       <div class="card-body">
-        <h5 class="card-title">Vue chat app</h5>
-        <p class="card-text">Welcome to socket chatting.</p>
+        <h5 class="card-title text-center">Vue chat app</h5>
+        <p class="card-text text-center">Welcome to socket chatting.</p>
         <div class="innerContainer">
           <div class="msgSeen" v-for="(listMsg,index) in messages" :key="index">
             <div class="scroller">
